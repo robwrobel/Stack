@@ -8,10 +8,6 @@ public class Stack<T> {
     private T[] table;
     int index;
     int size;
-
-    /**
-     *
-     */
     public Stack (Class<T> c, int size) {
         this.table = (T[]) Array.newInstance(c,size);
         this.size = size;

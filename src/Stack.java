@@ -1,5 +1,9 @@
 import java.lang.reflect.Array;
 
+/**
+ * 
+ * @param <T>
+ */
 public class Stack<T> {
     private T[] table;
     int index;

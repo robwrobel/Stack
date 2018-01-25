@@ -10,6 +10,10 @@ public class Stack<T> {
         this.index = 0;
     }
 
+    /**
+     * 
+     * @return
+     */
     T pop() {
         if (index == 0) throw new StackUnderflowException();
         return table[--index];

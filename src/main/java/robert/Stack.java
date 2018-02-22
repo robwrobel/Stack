@@ -2,7 +2,7 @@ package robert;
 import java.lang.reflect.Array;
 
 /**
- * 
+ * This is a stack implementation.
  * @param <T>
  */
 public class Stack<T> {
